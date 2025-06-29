@@ -1,4 +1,20 @@
 
+"""
+Stwórz hierarchię klas, która modeluje różne rodzaje książek w bibliotece.
+Wymagania:
+1. Utwórz klasę bazową Ksiazka z atrybutami:
+a. tytul (str)
+b. autor (str)
+c. rok_wydania (int)
+d. Metoda opis(), która zwraca podstawowy opis książki.
+2. Utwórz klasy dziedziczące:
+a. Ebook – dodatkowy atrybut rozmiar_pliku (w MB). Metoda opis()
+powinna dodatkowo informować o rozmiarze pliku.
+b. Audiobook – dodatkowy atrybut czas_trwania (w minutach). Metoda
+opis() powinna zwracać informację o czasie trwania.
+3. Test: Utwórz kilka obiektów obu typów i wypisz ich opisy.
+"""
+
 class Ksiazka:
     def __init__(self, tytul, autor, rok_wydania):
         self.tytul = tytul

@@ -1,5 +1,11 @@
 from typing import Dict, Optional
 
+"""
+Zaprojektuj klasę Library, która przechowuje książki w postaci słownika {ISBN:
+title}. Dodaj metodę find_book, która przyjmuje numer ISBN (str) i zwraca tytuł
+książki (str) lub None, jeśli książki nie ma w bibliotece. Zastosuj podpowiedzi typów.
+"""
+
 class Library:
     def __init__(self) -> None:
         self.books: Dict[str, str] = {}

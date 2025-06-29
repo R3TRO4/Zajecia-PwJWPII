@@ -1,5 +1,21 @@
 import json
 
+"""
+Napisz klasę ModelAI, która pozwala na śledzenie liczby utworzonych modeli oraz
+umożliwia tworzenie obiektu na podstawie pliku json.
+
+ Wymagania:
+✅ Atrybuty instancji:
+• nazwa_modelu (nazwa modelu AI)
+• wersja (wersja modelu)
+✅ Atrybut klasowy:
+• liczba_modeli (przechowuje globalną liczbę utworzonych modeli)
+✅ Metody:
+• nowy_model(): Zwiększa licznik utworzonych modeli.
+• ile_modeli(cls): Zwraca liczbę utworzonych modeli.
+• z_pliku(cls, nazwa_pliku): Tworzy obiekt na podstawie pliku .json.
+"""
+
 class ModelAI:
 
     # Atrybut klasowy

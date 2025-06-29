@@ -1,5 +1,24 @@
 from flask import Flask, render_template, request, redirect, url_for
 
+"""
+Zbuduj prostą aplikację To-Do, która pozwala użytkownikowi:
+• Dodawać nowe zadania
+• Oznaczać zadania jako wykonane
+• Usuwać zadania z listy
+Wymagane trasy:
+1. / – strona główna z linkami do:
+2. /tasks – strona z listą zadań
+3. /about – strona „O aplikacji”
+Dwa podejścia do realizacji:
+Podejście 1: Logika po stronie Pythona (Flask)
+• Lista zadań przechowywana w zmiennej w Pythonie
+• Dodawanie przez formularz HTML (metoda POST)
+• Usuwanie i oznaczanie jako wykonane przez przekierowania (/delete/<id>,
+/done/<id>)
+• Widoki renderowane przez Flask (render_template z Jinja2)
+Użyjesz: request.form, redirect, url_for, @app.route
+"""
+
 app = Flask(__name__)
 
 # Przechowywanie zadań w pamięci

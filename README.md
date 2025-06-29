@@ -1,1 +1,21 @@
-"# Zajecia-PwJWPII" 
+# Zadania z zajęć Programowanie w języku wysokiego poziomu II - Bartosz Pawlak
+
+## Spis treści
+- [Zajęcia 1 - Zadanie 1](Zajecia1/Zadanie1/main.py)
+- [Zajęcia 1 - Zadanie 2](Zajecia1/Zadanie2/main.py)
+- [Zajęcia 1 - Zadanie 3](Zajecia1/Zadanie3/main.py)
+- [Zajęcia 1 - Zadanie 4](Zajecia1/Zadanie4/main.py)
+- [Zajęcia 1 - Zadanie 5](Zajecia1/Zadanie5/main.py)
+- [Zajęcia 2 - Zadanie 1](Zajecia2/Zadanie1/main.py)
+- [Zajęcia 2 - Zadanie 2](Zajecia2/Zadanie2/main.py)
+- [Zajęcia 2 - Zadanie 3](Zajecia2/Zadanie3/main.py)
+- [Zajęcia 2 - Zadanie 4](Zajecia2/Zadanie4/main.py)
+- [Zajęcia 2 - Zadanie 5](Zajecia2/Zadanie5/main.py)
+- [Zajęcia 3 - Zadanie 0](Zajecia3/Zadanie0/main.py)
+- [Zajęcia 3 - Zadanie 1](Zajecia3/Zadanie1/main.py)
+- [Zajęcia 3 - Zadanie 2](Zajecia3/Zadanie2/main.py)
+- [Zajęcia 4 - Zadanie 1](Zajecia4/Zadanie1/app.py)
+- [Zajęcia 4 - Zadanie 2.1](Zajecia4/Zadanie2_(podejscie1)/app.py)
+- [Zajęcia 4 - Zadanie 2.2](Zajecia4/Zadanie2_(podejscie2)/app.py)
+- [Zajęcia 5 - Zadanie 1](Zajecia5/Zadanie1/main.py)
+- [Zajęcia 5 - Zadanie 2](Zajecia5/Zadanie2/app.py)

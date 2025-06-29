@@ -1,5 +1,10 @@
 from typing import List
 
+"""
+Zaimplementuj funkcję average, która przyjmuje listę liczb zmiennoprzecinkowych i
+zwraca ich średnią. Użyj podpowiedzi typów.
+"""
+
 def average(numbers: List[float], precision: int = 2) -> float:
     if not numbers:
         raise ValueError("Lista nie może być pusta.")

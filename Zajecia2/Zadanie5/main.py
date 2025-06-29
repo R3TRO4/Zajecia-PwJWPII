@@ -1,6 +1,12 @@
 import random
 from typing import List, Iterator
 
+"""
+Zaimplementuj klasę SimpleChatbot, która działa jako iterator. Powinna zadawać
+użytkownikowi pytania z listy i czekać na odpowiedź. Po przejściu przez wszystkie
+pytania powinna zgłosić wyjątek StopIteration.
+"""
+
 class SimpleChatbot:
     def __init__(self, questions: List[str]) -> None:
         self.original_questions = questions[:]  # zachowujemy oryginalną listę

@@ -3,6 +3,19 @@ import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 
+"""
+Stwórz aplikację webową w Streamlit, która:
+1. Łączy się z bazą sales.db (SQLite) i wyświetla dane z tabeli sales.
+2. Pozwala dodać nowy rekord sprzedaży (produkt, ilość, cena, data).
+3. Wyświetla dane w tabeli (st.dataframe) z możliwością filtrowania po
+produkcie.
+4. Pokazuje dwa wykresy:
+a. sprzedaż dzienna (wartość: ilość × cena),
+b. suma sprzedanych produktów wg typu.
+Dodaj elementy interaktywne (selectbox, input, button, checkbox) oraz np.
+st.balloons().
+"""
+
 DB_PATH = "sales.db"
 
 # Funkcje pomocnicze

@@ -1,5 +1,24 @@
 """Moduł zarządzania prostą biblioteką z wypożyczaniem książek."""
 
+"""
+Dostałeś kod od kolegi, który stworzył prosty system do zarządzania biblioteką. Kod
+działa poprawnie, ale niestety zawiera wiele błędów stylistycznych, logicznych oraz
+niezgodności z zasadami języka Python (PEP 8).
+
+Krok 1 – Analiza narzędziami:
+• Użyj narzędzia flake8, aby wykryć błędy stylistyczne i składniowe.
+• Użyj narzędzia pylint, aby wykryć problemy jakościowe, logiczne oraz uzyskać
+wskazówki na temat poprawy kodu.
+Krok 2 – Poprawa błędów:
+• Na podstawie wyników analizy z narzędzi (flake8 i pylint) popraw wykryte
+problemy.
+• Dostosuj kod do standardu PEP 8 oraz dobrych praktyk programowania.
+Krok 3 – Użycie narzędzia Black:
+• Po samodzielnym poprawieniu kodu, wypróbuj także narzędzia black, aby
+automatycznie sformatować kod i upewnić się, że spełnia on standardy
+formatowania PEP 8.
+
+"""
 
 class Ksiazka:
     """Reprezentuje książkę w bibliotece."""

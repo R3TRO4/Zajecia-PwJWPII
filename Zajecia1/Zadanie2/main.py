@@ -1,3 +1,13 @@
+"""
+Napisz klasę Matrix, która reprezentuje macierz 2x2. Przeciąż operatory:
+• + → dla dodawania macierzy.
+• * → dla mnożenia macierzy.
+Wymagania:
+• Konstruktor przyjmujący elementy macierzy a, b, c, d.
+• Metody __add__() i __mul__() zwracające nową macierz.
+• Metoda __str__() do wyświetlania macierzy.
+• Metoda __repr__() do wyświetlania (reprezentacji) macierzy.
+"""
 class Matrix:
     def __init__(self, a, b, c, d):
         self.a = a

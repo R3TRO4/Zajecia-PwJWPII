@@ -1,3 +1,24 @@
+
+"""
+Zaprojektuj klasę UserAuth, która będzie symulować system logowania użytkownika w
+aplikacji mobilnej.
+1. Stwórz klasę UserAuth, która:
+a. Ma atrybut users, będący słownikiem ({login: hasło})
+b. Metodę login(username, password), sprawdzającą poprawność
+danych logowania
+2. Stwórz własne wyjątki UserNotFoundError i WrongPasswordError
+3. Obsłuż wyjątki:
+a. UserNotFoundError – jeśli użytkownika nie ma w systemie
+b. WrongPasswordError – jeśli hasło jest niepoprawne
+auth = UserAuth({"admin": "1234", "user": "abcd"})
+try:
+auth.login("admin", "1234") # Sukces
+auth.login("unknown", "pass") # Powinien rzucić UserNotFoundError
+auth.login("user", "wrongpass") # Powinien rzucić WrongPasswordError
+except Exception as e:
+print(f"Błąd: {e}")
+"""
+
 class UserNotFoundError(Exception):
     pass
 

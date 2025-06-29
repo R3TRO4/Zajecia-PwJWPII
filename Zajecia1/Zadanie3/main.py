@@ -1,3 +1,27 @@
+
+"""
+Stwórz system zarządzania pracownikami w firmie.
+1. Zaimplementuj klasę Osoba, która ma atrybuty:
+a. imie (str)
+b. nazwisko (str)
+c. wiek (int)
+d. metodę przedstaw_sie(), zwracającą "Jestem {imie}
+{nazwisko}."
+2. Stwórz klasę Pracownik, dziedziczącą po Osoba, która dodatkowo ma:
+a. stanowisko (str)
+b. pensja (float)
+c. metodę info_o_pracy(), zwracającą "Pracuję jako
+{stanowisko}, zarabiam {pensja} zł."
+3. Dodaj klasę Manager, dziedziczącą po Pracownik, z nowym atrybutem zespol
+(lista pracowników).
+a. Rozszerz metodę przedstaw_sie(), aby zawierała informację o liczbie
+podwładnych.
+b. Dodaj metodę dodaj_do_zespolu(pracownik), która dodaje
+pracownika do zespołu.
+Test: Stwórz instancje Managera oraz kilku Pracowników, dodaj ich do zespołu i
+wywołaj metody.
+"""
+
 class Osoba:
     def __init__(self, imie, nazwisko, wiek):
         self.imie = imie
